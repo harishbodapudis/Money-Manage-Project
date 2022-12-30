@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.income-balance-details-box {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-style: bold;
+  color: #1e293b;
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+  border-top: 0px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+  width: 100px;
+}
+.delete-img {
+  height: 16px;
+  width: 20px;
+  cursor: pointer;
+}
+.title {
+  color: #7e858e;
+  font-size: 13px;
+  width: 50px;
+}
+
+.type {
+  color: #7e858e;
+  font-size: 13px;
+  width: 50px;
+}
+
+.amount {
+  color: #7e858e;
+  font-size: 13px;
+  width: 80px;
+}

@@ -1,0 +1,173 @@
+/* Write your CSS here */
+.balance-form-history-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+.money-manager-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-size: cover;
+  margin-top: 20px;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+.balance-sheet-headings-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-style: bold;
+  color: #1e293b;
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+}
+.user-balance-sheet-box {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #d7dfe9;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.ul-item {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.form-box {
+  width: 35%;
+  height: 300px;
+  border: 1px solid #d7dfe9;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.transaction-heading {
+  color: #334155;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.transaction-entry-details-box {
+  width: 80%;
+  margin: auto;
+}
+.label-title {
+  color: #7e858e;
+  margin: 15px 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.label-amount {
+  color: #7e858e;
+  margin: 15px 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.label-type {
+  color: #7e858e;
+  margin: 15px 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.title-input {
+  padding: 5px;
+  width: 90%;
+  margin: 10px 0px;
+}
+.amount-input {
+  padding: 5px;
+  width: 90%;
+  margin: 10px 0px;
+}
+.type-input {
+  padding: 5px;
+  width: 90%;
+  margin: 10px 0px;
+}
+.add-btn {
+  border-width: 0px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history-heading-balance-box {
+  width: 90%;
+  margin: auto;
+}
+.history-heading {
+  color: #334155;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.title-history-heading {
+  color: #334155;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  width: 50px;
+}
+
+.amount-history-heading {
+  color: #334155;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  width: 75px;
+}
+
+.type-history-heading {
+  color: #334155;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  width: 75px;
+}
+
+.delete-history-heading {
+  color: #ffffff;
+  padding-left: 14px;
+  text-align: left;
+  width: 80px;
+}
+
+@media (width < 768px) {
+  .money-manager-box {
+    width: 80%;
+    margin: auto;
+  }
+  .balance-form-history-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .form-box {
+    width: 80%;
+    margin: auto;
+  }
+  .user-balance-sheet-box {
+    width: 80%;
+    margin: 15px auto;
+    height: 50vh;
+  }
+  .manage-heading {
+    text-align: center;
+    font-size: 22px;
+  }
+  .manage-para {
+    text-align: center;
+    font-size: 16px;
+  }
+}

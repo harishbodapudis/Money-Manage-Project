@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.balance-sheet-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+  color: #334155;
+}
+.income {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 15px;
+  color: #334155;
+}
+.expenses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 15px;
+  color: #334155;
+}
+
+.balance-img {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+.income-img {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+.expenses-img {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+@media (width < 768px) {
+  .balance-sheet-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .balance {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .income {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .expenses {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .balance-img {
+    height: 60px;
+    width: 60px;
+  }
+  .expenses-img {
+    height: 60px;
+    width: 60px;
+  }
+  .income-img {
+    height: 60px;
+    width: 60px;
+  }
+}
